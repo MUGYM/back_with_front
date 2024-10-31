@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:frontend/providers/audio_player_screen.dart';
+import 'screens/audio_player_screen.dart';
 
 void main() {
   runApp(
