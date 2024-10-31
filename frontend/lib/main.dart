@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:frontend/providers/auth_provider.dart';
-import 'package:frontend/screens/signIn_screen.dart';
-import 'package:provider/provider.dart';
+import 'package:frontend/providers/audio_player_screen.dart';
 
 void main() {
   runApp(
@@ -25,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const SignIn(),
+      home: const AudioPlayerScreen(),
     );
   }
 }
