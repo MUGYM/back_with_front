@@ -2,24 +2,16 @@ import 'package:flutter/material.dart';
 import 'screens/audio_player_screen.dart';
 
 void main() {
-  runApp(
-    MultiProvider(
-      providers: [
-        ChangeNotifierProvider(create: (_) => AuthProvider()),
-      ],
-      child: const MyApp(),
-    ),
-  );
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Flutter Spotify App",
+      title: 'Flutter 오디오 플레이어',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
