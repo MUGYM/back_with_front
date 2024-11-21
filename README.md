@@ -1,5 +1,7 @@
 # back_with_front
 
+# main으로 바꾸기~~
+
 ## 환경설정
 
 ### 1. frontend/pubspec.yaml </br>
